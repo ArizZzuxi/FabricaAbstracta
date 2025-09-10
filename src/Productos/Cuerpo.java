@@ -9,5 +9,6 @@ package Productos;
  * @author User
  */
 public interface Cuerpo {
-    
+
+    public String darDescripcion();
 }

@@ -8,6 +8,23 @@ package Productos;
  *
  * @author User
  */
-public class ArmaElfo {
+public class ArmaElfo implements Arma{
     
+    private String descripcion;
+
+    public ArmaElfo() {
+    }
+
+    public ArmaElfo(String descripcion) {
+        this.descripcion = descripcion;
+    }
+
+    @Override
+    public String darDescripcion() {
+        return descripcion;
+    }
+    
+    public void setDescripcion(String descripcion) {
+        this.descripcion = descripcion;
+    }
 }

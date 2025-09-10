@@ -7,14 +7,17 @@ package Fabricas;
 import Productos.Arma;
 import Productos.ArmaElfo;
 import Productos.Armadura;
+import Productos.ArmaduraElfo;
 import Productos.Cuerpo;
+import Productos.CuerpoElfo;
 import Productos.Montura;
+import Productos.MonturaElfo;
 
 /**
  *
  * @author User
  */
-public class FabricaElfos implements FabricaAbstracta{
+public class FabricaElfos implements FabricaAbstracta {
 
     @Override
     public Arma crearArma() {
@@ -28,32 +31,32 @@ public class FabricaElfos implements FabricaAbstracta{
 
     @Override
     public Cuerpo crearCuerpo() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        return new CuerpoElfo();
     }
 
     @Override
     public Cuerpo crearCuerpo(String descripcion) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        return new CuerpoElfo(descripcion);
     }
 
     @Override
     public Armadura crearArmadura() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        return new ArmaduraElfo();
     }
 
     @Override
     public Armadura crearArmadura(String descripcion) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        return new ArmaduraElfo(descripcion);
     }
 
     @Override
     public Montura crearMontura() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        return new MonturaElfo();
     }
 
     @Override
     public Montura crearMontura(String descripcion) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        return new MonturaElfo(descripcion);
     }
-    
+
 }

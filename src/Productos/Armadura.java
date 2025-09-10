@@ -10,4 +10,5 @@ package Productos;
  */
 public interface Armadura {
     
+    public String darDescripcion();
 }

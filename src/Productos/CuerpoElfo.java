@@ -8,7 +8,8 @@ package Productos;
  *
  * @author User
  */
-public class CuerpoElfo implements Cuerpo{
+public class CuerpoElfo implements Cuerpo {
+
     private String descripcion;
 
     public CuerpoElfo() {

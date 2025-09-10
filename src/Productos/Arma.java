@@ -9,5 +9,5 @@ package Productos;
  * @author User
  */
 public interface Arma {
-    
+    public String darDescripcion();
 }
