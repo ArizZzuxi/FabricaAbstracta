@@ -8,6 +8,24 @@ package Productos;
  *
  * @author User
  */
-public class MonturaHumano {
+public class MonturaHumano implements Montura {
+
+    private String descripcion;
+
+    public MonturaHumano() {
+    }
+
+    public MonturaHumano(String descripcion) {
+        this.descripcion = descripcion;
+    }
+
+    @Override
+    public String darDescripcion() {
+        return descripcion;
+    }
+
+    public void setDescripcion(String descripcion) {
+        this.descripcion = descripcion;
+    }
     
 }

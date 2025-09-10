@@ -8,6 +8,24 @@ package Productos;
  *
  * @author User
  */
-public class CuerpoHumano {
+public class CuerpoHumano implements Cuerpo {
+
+    private String descripcion;
+
+    public CuerpoHumano() {
+    }
+
+    public CuerpoHumano(String descripcion) {
+        this.descripcion = descripcion;
+    }
+
+    @Override
+    public String darDescripcion() {
+        return descripcion;
+    }
+
+    public void setDescripcion(String descripcion) {
+        this.descripcion = descripcion;
+    }
     
 }

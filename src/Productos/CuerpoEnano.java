@@ -8,6 +8,24 @@ package Productos;
  *
  * @author User
  */
-public class CuerpoEnano {
+public class CuerpoEnano implements Cuerpo {
+
+    private String descripcion;
+
+    public CuerpoEnano() {
+    }
+
+    public CuerpoEnano(String descripcion) {
+        this.descripcion = descripcion;
+    }
+
+    @Override
+    public String darDescripcion() {
+        return descripcion;
+    }
+
+    public void setDescripcion(String descripcion) {
+        this.descripcion = descripcion;
+    }
     
 }

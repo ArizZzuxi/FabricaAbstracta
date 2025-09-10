@@ -8,6 +8,24 @@ package Productos;
  *
  * @author User
  */
-public class CuerpoOrco {
+public class CuerpoOrco implements Cuerpo {
+
+    private String descripcion;
+
+    public CuerpoOrco() {
+    }
+
+    public CuerpoOrco(String descripcion) {
+        this.descripcion = descripcion;
+    }
+
+    @Override
+    public String darDescripcion() {
+        return descripcion;
+    }
+
+    public void setDescripcion(String descripcion) {
+        this.descripcion = descripcion;
+    }
     
 }

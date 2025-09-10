@@ -8,6 +8,24 @@ package Productos;
  *
  * @author User
  */
-public class MonturaOrco {
+public class MonturaOrco implements Montura {
+
+    private String descripcion;
+
+    public MonturaOrco() {
+    }
+
+    public MonturaOrco(String descripcion) {
+        this.descripcion = descripcion;
+    }
+
+    @Override
+    public String darDescripcion() {
+        return descripcion;
+    }
+
+    public void setDescripcion(String descripcion) {
+        this.descripcion = descripcion;
+    }
     
 }

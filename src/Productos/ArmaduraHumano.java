@@ -8,6 +8,22 @@ package Productos;
  *
  * @author User
  */
-public class ArmaduraHumano {
-    
+public class ArmaduraHumano implements Armadura{
+    private String descripcion;
+
+    public ArmaduraHumano() {
+    }
+
+    public ArmaduraHumano(String descripcion) {
+        this.descripcion = descripcion;
+    }
+
+    @Override
+    public String darDescripcion() {
+        return descripcion;
+    }
+
+    public void setDescripcion(String descripcion) {
+        this.descripcion = descripcion;
+    }
 }
