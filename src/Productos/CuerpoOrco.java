@@ -12,7 +12,7 @@ public class CuerpoOrco implements Cuerpo {
 
     private String descripcion;
 
-    private static final String DESCRIPCION_DEFAULT = "Cuerpo De Orco, Especializado para combate";
+    private static final String DESCRIPCION_DEFAULT = "Cuerpo resistente con gran fuerza, pero poca movilidad";
     
     public CuerpoOrco() {
         this.descripcion = DESCRIPCION_DEFAULT;

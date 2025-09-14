@@ -12,7 +12,7 @@ public class ArmaduraEnano implements Armadura{
 
     private String descripcion;
 
-    private static final String DESCRIPCION_DEFAULT = "Ropa de tela simple, nula defensa alta, ofrece alto sigilo";
+    private static final String DESCRIPCION_DEFAULT = "Ropajes de Cuero grueso y metales";
     
     public ArmaduraEnano() {
         this.descripcion = DESCRIPCION_DEFAULT;

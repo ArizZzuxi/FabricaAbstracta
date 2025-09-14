@@ -11,7 +11,7 @@ package Productos;
 public class ArmaHumano implements Arma{
     private String descripcion;
 
-    private static final String DESCRIPCION_DEFAULT = "Espada rota, poco mas que añadir al respecto";
+    private static final String DESCRIPCION_DEFAULT = "Una gran espada larga de buen material";
     
     public ArmaHumano() {
         this.descripcion = DESCRIPCION_DEFAULT;

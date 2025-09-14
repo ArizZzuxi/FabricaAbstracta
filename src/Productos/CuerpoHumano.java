@@ -12,7 +12,7 @@ public class CuerpoHumano implements Cuerpo {
 
     private String descripcion;
 
-    private static final String DESCRIPCION_DEFAULT = "Debil pero agil cuerpo de humano";
+    private static final String DESCRIPCION_DEFAULT = "Cuerpo debil, pero agil";
     
     public CuerpoHumano() {
         this.descripcion = DESCRIPCION_DEFAULT;

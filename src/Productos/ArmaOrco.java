@@ -11,7 +11,7 @@ package Productos;
 public class ArmaOrco implements Arma{
     private String descripcion;
 
-    private static final String DESCRIPCION_DEFAULT = "Hacha de guerra, lento con gran ataque";
+    private static final String DESCRIPCION_DEFAULT = "Gran mazo de guerra, lento pero con gran ataque";
     
     public ArmaOrco() {
         this.descripcion = DESCRIPCION_DEFAULT;

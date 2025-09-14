@@ -12,7 +12,7 @@ public class ArmaElfo implements Arma{
     
     private String descripcion;
 
-    private static final String DESCRIPCION_DEFAULT = "Arco de caza simple";
+    private static final String DESCRIPCION_DEFAULT = "Arco de caza con una ligera daga y un carcaj lleno de flechas";
     
     public ArmaElfo() {
         this.descripcion = DESCRIPCION_DEFAULT;

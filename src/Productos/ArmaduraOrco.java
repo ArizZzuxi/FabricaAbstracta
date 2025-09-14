@@ -11,7 +11,7 @@ package Productos;
 public class ArmaduraOrco implements Armadura{
     private String descripcion;
 
-    private static final String DESCRIPCION_DEFAULT = "Armadura de guerra, Ofrece excelente defensa, visibilidad y velocidad reducida";
+    private static final String DESCRIPCION_DEFAULT = "Armadura de guerra tradicional, que ofrece visibilidad e intimidación";
     
     public ArmaduraOrco() {
         this.descripcion = DESCRIPCION_DEFAULT;

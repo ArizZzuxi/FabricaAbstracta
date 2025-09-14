@@ -12,7 +12,7 @@ public class CuerpoEnano implements Cuerpo {
 
     private String descripcion;
 
-    private static final String DESCRIPCION_DEFAULT = "Cuerpo Pequeño de Enano, ofrece un aumento drastico de velocidad y sigilo";
+    private static final String DESCRIPCION_DEFAULT = "Cuerpo Pequeño de Enano con poca velocidad pero gran fuerza";
     
     public CuerpoEnano() {
         this.descripcion = DESCRIPCION_DEFAULT;

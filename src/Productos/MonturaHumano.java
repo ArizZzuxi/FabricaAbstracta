@@ -12,7 +12,7 @@ public class MonturaHumano implements Montura {
 
     private String descripcion;
 
-    private static final String DESCRIPCION_DEFAULT = "Mula, lenta pero confiable";
+    private static final String DESCRIPCION_DEFAULT = "Caballo con armadura y alforjas";
     
     public MonturaHumano() {
         this.descripcion = DESCRIPCION_DEFAULT;

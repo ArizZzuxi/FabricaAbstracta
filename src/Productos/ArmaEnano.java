@@ -11,7 +11,7 @@ package Productos;
 public class ArmaEnano implements Arma{
     private String descripcion;
 
-    private static final String DESCRIPCION_DEFAULT = "Daga simple, perfecto para asesinatos sigilosos";
+    private static final String DESCRIPCION_DEFAULT = "Hacha pesada y escudo de metal para el combate cuerpo a cuerpo";
     
     public ArmaEnano() {
         this.descripcion = DESCRIPCION_DEFAULT;
