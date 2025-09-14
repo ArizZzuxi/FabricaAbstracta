@@ -12,11 +12,10 @@ public class ArmaElfo implements Arma{
     
     private String descripcion;
 
+    private static final String DESCRIPCION_DEFAULT = "Arco de caza simple";
+    
     public ArmaElfo() {
-    }
-
-    public ArmaElfo(String descripcion) {
-        this.descripcion = descripcion;
+        this.descripcion = DESCRIPCION_DEFAULT;
     }
 
     @Override

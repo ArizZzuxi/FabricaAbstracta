@@ -11,11 +11,10 @@ package Productos;
 public class ArmaduraHumano implements Armadura{
     private String descripcion;
 
+    private static final String DESCRIPCION_DEFAULT = "Armadura de tela de bajo nivel, ofrece poca defensa";
+    
     public ArmaduraHumano() {
-    }
-
-    public ArmaduraHumano(String descripcion) {
-        this.descripcion = descripcion;
+        this.descripcion = DESCRIPCION_DEFAULT;
     }
 
     @Override

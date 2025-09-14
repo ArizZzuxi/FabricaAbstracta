@@ -12,11 +12,10 @@ public class MonturaEnano implements Montura {
 
     private String descripcion;
 
+    private static final String DESCRIPCION_DEFAULT = "Oso de combate, lento pero con alto aguante y ataque";
+    
     public MonturaEnano() {
-    }
-
-    public MonturaEnano(String descripcion) {
-        this.descripcion = descripcion;
+        this.descripcion = DESCRIPCION_DEFAULT;
     }
 
     @Override

@@ -26,7 +26,7 @@ public class FabricaHumanos implements FabricaAbstracta {
 
     @Override
     public Arma crearArma(String descripcion) {
-        return new ArmaHumano(descripcion);
+        return new ArmaHumano();
     }
 
     @Override
@@ -36,7 +36,7 @@ public class FabricaHumanos implements FabricaAbstracta {
 
     @Override
     public Cuerpo crearCuerpo(String descripcion) {
-        return new CuerpoHumano(descripcion);
+        return new CuerpoHumano();
     }
 
     @Override
@@ -46,7 +46,7 @@ public class FabricaHumanos implements FabricaAbstracta {
 
     @Override
     public Armadura crearArmadura(String descripcion) {
-        return new ArmaduraHumano(descripcion);
+        return new ArmaduraHumano();
     }
 
     @Override
@@ -56,6 +56,6 @@ public class FabricaHumanos implements FabricaAbstracta {
 
     @Override
     public Montura crearMontura(String descripcion) {
-        return new MonturaHumano(descripcion);
+        return new MonturaHumano();
     }
 }

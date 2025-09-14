@@ -12,11 +12,10 @@ public class MonturaOrco implements Montura {
 
     private String descripcion;
 
+    private static final String DESCRIPCION_DEFAULT = "Lobo de guerra, perfecto para el combate sin capacidad de carga";
+    
     public MonturaOrco() {
-    }
-
-    public MonturaOrco(String descripcion) {
-        this.descripcion = descripcion;
+        this.descripcion = DESCRIPCION_DEFAULT;
     }
 
     @Override

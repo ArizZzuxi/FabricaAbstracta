@@ -12,11 +12,10 @@ public class CuerpoHumano implements Cuerpo {
 
     private String descripcion;
 
+    private static final String DESCRIPCION_DEFAULT = "Debil pero agil cuerpo de humano";
+    
     public CuerpoHumano() {
-    }
-
-    public CuerpoHumano(String descripcion) {
-        this.descripcion = descripcion;
+        this.descripcion = DESCRIPCION_DEFAULT;
     }
 
     @Override

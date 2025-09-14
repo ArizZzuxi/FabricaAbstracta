@@ -11,13 +11,11 @@ package Productos;
 public class ArmaHumano implements Arma{
     private String descripcion;
 
+    private static final String DESCRIPCION_DEFAULT = "Espada rota, poco mas que añadir al respecto";
+    
     public ArmaHumano() {
+        this.descripcion = DESCRIPCION_DEFAULT;
     }
-
-    public ArmaHumano(String descripcion) {
-        this.descripcion = descripcion;
-    }
-
     @Override
     public String darDescripcion() {
         return descripcion;

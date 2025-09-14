@@ -12,11 +12,10 @@ public class MonturaHumano implements Montura {
 
     private String descripcion;
 
+    private static final String DESCRIPCION_DEFAULT = "Mula, lenta pero confiable";
+    
     public MonturaHumano() {
-    }
-
-    public MonturaHumano(String descripcion) {
-        this.descripcion = descripcion;
+        this.descripcion = DESCRIPCION_DEFAULT;
     }
 
     @Override

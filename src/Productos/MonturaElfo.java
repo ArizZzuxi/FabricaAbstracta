@@ -12,11 +12,10 @@ public class MonturaElfo implements Montura {
 
     private String descripcion;
 
+    private static final String DESCRIPCION_DEFAULT = "Caballo blanco, rapido pero con poca capacidad de carga";
+    
     public MonturaElfo() {
-    }
-
-    public MonturaElfo(String descripcion) {
-        this.descripcion = descripcion;
+        this.descripcion = DESCRIPCION_DEFAULT;
     }
 
     @Override

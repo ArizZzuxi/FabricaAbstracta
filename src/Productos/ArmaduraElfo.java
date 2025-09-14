@@ -12,11 +12,10 @@ public class ArmaduraElfo implements Armadura {
 
     private String descripcion;
 
+    private static final String DESCRIPCION_DEFAULT = "Armadura de cuero, excelente ante cuchilladas, debil ante golpes contundentes";
+    
     public ArmaduraElfo() {
-    }
-
-    public ArmaduraElfo(String descripcion) {
-        this.descripcion = descripcion;
+        this.descripcion = DESCRIPCION_DEFAULT;
     }
 
     @Override

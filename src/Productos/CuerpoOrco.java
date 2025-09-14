@@ -12,11 +12,10 @@ public class CuerpoOrco implements Cuerpo {
 
     private String descripcion;
 
+    private static final String DESCRIPCION_DEFAULT = "Cuerpo De Orco, Especializado para combate";
+    
     public CuerpoOrco() {
-    }
-
-    public CuerpoOrco(String descripcion) {
-        this.descripcion = descripcion;
+        this.descripcion = DESCRIPCION_DEFAULT;
     }
 
     @Override

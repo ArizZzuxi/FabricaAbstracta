@@ -44,31 +44,31 @@ public class Cliente {
         switch (vista.leerEntero("Digite la opcion que desee (1-4): ")) {
             case 1:
                 fabrica = new FabricaHumanos();
-                cuerpo = fabrica.crearCuerpo("Debil pero agil cuerpo de humano");
-                armadura = fabrica.crearArmadura("Armadura de tela de bajo nivel, ofrece poca defensa");
-                arma = fabrica.crearArma("Espada rota, poco mas que añadir al respecto");
-                montura = fabrica.crearMontura("Mula, lenta pero confiable");
+                cuerpo = fabrica.crearCuerpo();
+                armadura = fabrica.crearArmadura();
+                arma = fabrica.crearArma();
+                montura = fabrica.crearMontura();
                 return true;
             case 2:
                 fabrica = new FabricaElfos();
-                cuerpo = fabrica.crearCuerpo("Cuerpo de elfo, fragil pero con alta destreza y alerta sus alrededores");
-                armadura = fabrica.crearArmadura("Armadura de cuero, excelente ante cuchilladas, debil ante golpes contundentes");
-                arma = fabrica.crearArma("Arco de caza simple");
-                montura = fabrica.crearMontura("Caballo blanco, rapido pero con poca capacidad de carga");
+                cuerpo = fabrica.crearCuerpo();
+                armadura = fabrica.crearArmadura();
+                arma = fabrica.crearArma();
+                montura = fabrica.crearMontura();
                 return true;
             case 3:
                 fabrica = new FabricaEnanos();
-                cuerpo = fabrica.crearCuerpo("Cuerpo Pequeño de Enano, ofrece un aumento drastico de velocidad y sigilo");
-                armadura = fabrica.crearArmadura("Ropa de tela simple, nula defensa alta, ofrece alto sigilo");
-                arma = fabrica.crearArma("Daga simple, perfecto para asesinatos sigilosos");
-                montura = fabrica.crearMontura("Oso de combate, lento pero con alto aguante y ataque");
+                cuerpo = fabrica.crearCuerpo();
+                armadura = fabrica.crearArmadura();
+                arma = fabrica.crearArma();
+                montura = fabrica.crearMontura();
                 return true;
             case 4:
                 fabrica = new FabricaOrcos();
-                cuerpo = fabrica.crearCuerpo("Cuerpo De Orco, Especializado para combate");
-                armadura = fabrica.crearArmadura("Armadura de guerra, Ofrece excelente defensa, visibilidad y velocidad reducida");
-                arma = fabrica.crearArma("Hacha de guerra, lento con gran ataque");
-                montura = fabrica.crearMontura("Lobo de guerra, perfecto para el combate sin capacidad de carga");
+                cuerpo = fabrica.crearCuerpo();
+                armadura = fabrica.crearArmadura();
+                arma = fabrica.crearArma();
+                montura = fabrica.crearMontura();
                 return true;
             default:
                 return false;

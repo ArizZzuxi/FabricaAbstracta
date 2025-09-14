@@ -11,11 +11,10 @@ package Productos;
 public class ArmaOrco implements Arma{
     private String descripcion;
 
+    private static final String DESCRIPCION_DEFAULT = "Hacha de guerra, lento con gran ataque";
+    
     public ArmaOrco() {
-    }
-
-    public ArmaOrco(String descripcion) {
-        this.descripcion = descripcion;
+        this.descripcion = DESCRIPCION_DEFAULT;
     }
 
     @Override

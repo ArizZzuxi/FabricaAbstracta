@@ -11,13 +11,11 @@ package Productos;
 public class ArmaduraOrco implements Armadura{
     private String descripcion;
 
+    private static final String DESCRIPCION_DEFAULT = "Armadura de guerra, Ofrece excelente defensa, visibilidad y velocidad reducida";
+    
     public ArmaduraOrco() {
+        this.descripcion = DESCRIPCION_DEFAULT;
     }
-
-    public ArmaduraOrco(String descripcion) {
-        this.descripcion = descripcion;
-    }
-
     @Override
     public String darDescripcion() {
         return descripcion;

@@ -12,13 +12,12 @@ public class CuerpoEnano implements Cuerpo {
 
     private String descripcion;
 
+    private static final String DESCRIPCION_DEFAULT = "Cuerpo Pequeño de Enano, ofrece un aumento drastico de velocidad y sigilo";
+    
     public CuerpoEnano() {
+        this.descripcion = DESCRIPCION_DEFAULT;
     }
-
-    public CuerpoEnano(String descripcion) {
-        this.descripcion = descripcion;
-    }
-
+    
     @Override
     public String darDescripcion() {
         return descripcion;

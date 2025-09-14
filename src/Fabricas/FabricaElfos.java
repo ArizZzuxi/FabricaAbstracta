@@ -26,7 +26,7 @@ public class FabricaElfos implements FabricaAbstracta {
 
     @Override
     public Arma crearArma(String descripcion) {
-        return new ArmaElfo(descripcion);
+        return new ArmaElfo();
     }
 
     @Override
@@ -36,7 +36,7 @@ public class FabricaElfos implements FabricaAbstracta {
 
     @Override
     public Cuerpo crearCuerpo(String descripcion) {
-        return new CuerpoElfo(descripcion);
+        return new CuerpoElfo();
     }
 
     @Override
@@ -46,7 +46,7 @@ public class FabricaElfos implements FabricaAbstracta {
 
     @Override
     public Armadura crearArmadura(String descripcion) {
-        return new ArmaduraElfo(descripcion);
+        return new ArmaduraElfo();
     }
 
     @Override
@@ -56,7 +56,7 @@ public class FabricaElfos implements FabricaAbstracta {
 
     @Override
     public Montura crearMontura(String descripcion) {
-        return new MonturaElfo(descripcion);
+        return new MonturaElfo();
     }
 
 }

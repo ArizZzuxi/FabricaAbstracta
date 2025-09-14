@@ -11,12 +11,11 @@ package Productos;
 public class CuerpoElfo implements Cuerpo {
 
     private String descripcion;
-
+    
+    private static final String DESCRIPCION_DEFAULT = "Cuerpo de elfo, fragil pero con alta destreza y alerta sus alrededores";
+    
     public CuerpoElfo() {
-    }
-
-    public CuerpoElfo(String descripcion) {
-        this.descripcion = descripcion;
+        this.descripcion = DESCRIPCION_DEFAULT;
     }
 
     @Override

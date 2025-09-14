@@ -11,11 +11,10 @@ package Productos;
 public class ArmaEnano implements Arma{
     private String descripcion;
 
+    private static final String DESCRIPCION_DEFAULT = "Daga simple, perfecto para asesinatos sigilosos";
+    
     public ArmaEnano() {
-    }
-
-    public ArmaEnano(String descripcion) {
-        this.descripcion = descripcion;
+        this.descripcion = DESCRIPCION_DEFAULT;
     }
 
     @Override

@@ -26,7 +26,7 @@ public class FabricaEnanos implements FabricaAbstracta {
 
     @Override
     public Arma crearArma(String descripcion) {
-        return new ArmaEnano(descripcion);
+        return new ArmaEnano();
     }
 
     @Override
@@ -36,7 +36,7 @@ public class FabricaEnanos implements FabricaAbstracta {
 
     @Override
     public Cuerpo crearCuerpo(String descripcion) {
-        return new CuerpoEnano(descripcion);
+        return new CuerpoEnano();
     }
 
     @Override
@@ -46,7 +46,7 @@ public class FabricaEnanos implements FabricaAbstracta {
 
     @Override
     public Armadura crearArmadura(String descripcion) {
-        return new ArmaduraEnano(descripcion);
+        return new ArmaduraEnano();
     }
 
     @Override
@@ -56,6 +56,6 @@ public class FabricaEnanos implements FabricaAbstracta {
 
     @Override
     public Montura crearMontura(String descripcion) {
-        return new MonturaEnano(descripcion);
+        return new MonturaEnano();
     }
 }
