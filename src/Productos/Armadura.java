@@ -11,4 +11,5 @@ package Productos;
 public interface Armadura {
     
     public String darDescripcion();
+    public String darImagen();
 }

@@ -11,16 +11,23 @@ package Productos;
 public class CuerpoOrco implements Cuerpo {
 
     private String descripcion;
+    private String imagen;
 
     private static final String DESCRIPCION_DEFAULT = "Cuerpo resistente con gran fuerza, pero poca movilidad";
     
     public CuerpoOrco() {
         this.descripcion = DESCRIPCION_DEFAULT;
+        imagen =  "src/Imagenes/CuerpoOrco.png";
     }
 
     @Override
     public String darDescripcion() {
         return descripcion;
+    }
+    
+    @Override
+    public String darImagen() {
+        return imagen;
     }
 
     public void setDescripcion(String descripcion) {

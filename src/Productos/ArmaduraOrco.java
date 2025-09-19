@@ -10,15 +10,22 @@ package Productos;
  */
 public class ArmaduraOrco implements Armadura{
     private String descripcion;
+    private String imagen;
 
     private static final String DESCRIPCION_DEFAULT = "Armadura de guerra tradicional, que ofrece visibilidad e intimidación";
     
     public ArmaduraOrco() {
         this.descripcion = DESCRIPCION_DEFAULT;
+        imagen =  "src/Imagenes/ArmaduraOrco.png";
     }
     @Override
     public String darDescripcion() {
         return descripcion;
+    }
+    
+    @Override
+    public String darImagen() {
+        return imagen;
     }
 
     public void setDescripcion(String descripcion) {

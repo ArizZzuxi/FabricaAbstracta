@@ -11,4 +11,6 @@ package Productos;
 public interface Cuerpo {
 
     public String darDescripcion();
+    
+    public String darImagen();
 }

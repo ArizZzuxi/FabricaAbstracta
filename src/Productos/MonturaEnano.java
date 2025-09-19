@@ -11,16 +11,23 @@ package Productos;
 public class MonturaEnano implements Montura {
 
     private String descripcion;
+    private String imagen;
 
     private static final String DESCRIPCION_DEFAULT = "Oso de combate, lento pero con alto aguante y ataque";
     
     public MonturaEnano() {
         this.descripcion = DESCRIPCION_DEFAULT;
+        imagen =  "src/Imagenes/MonturaEnano.png";
     }
 
     @Override
     public String darDescripcion() {
         return descripcion;
+    }
+    
+    @Override
+    public String darImagen() {
+        return imagen;
     }
 
     public void setDescripcion(String descripcion) {

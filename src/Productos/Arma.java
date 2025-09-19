@@ -10,4 +10,5 @@ package Productos;
  */
 public interface Arma {
     public String darDescripcion();
+    public String darImagen();
 }

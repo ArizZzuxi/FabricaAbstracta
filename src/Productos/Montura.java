@@ -10,4 +10,5 @@ package Productos;
  */
 public interface Montura {
     public String darDescripcion();
+    public String darImagen();
 }
