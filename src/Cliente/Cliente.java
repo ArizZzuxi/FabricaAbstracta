@@ -32,30 +32,10 @@ public class Cliente {
     }
 
     public void crearPersonaje(String opcion) {
-        switch (opcion) {
-            case "Humano":
-                fabrica = poolFabricas.getFabrica(this, opcion);
-                break;
-            case "Elfo":
-                fabrica = poolFabricas.getFabrica(this, opcion);
-                break;
-            case "Enano":
-                fabrica = poolFabricas.getFabrica(this, opcion);
-                break;
-            case "Orco":
-                fabrica = poolFabricas.getFabrica(this, opcion);
-                break;
-            default:
-                break;
-        }
+        fabrica = poolFabricas.getFabrica(this, opcion);
         cuerpo = fabrica.crearCuerpo();
         armadura = fabrica.crearArmadura();
         arma = fabrica.crearArma();
         montura = fabrica.crearMontura();
     }
-
-    public void mostrarPersonaje() {
-
-    }
-
 }
